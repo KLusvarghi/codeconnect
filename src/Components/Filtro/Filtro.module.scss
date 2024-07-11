@@ -1,0 +1,50 @@
+@import '../../Root.module.scss';
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .filtros {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+
+    .item {
+      background-color: var(--cinza-claro);
+      padding: 2px 8px;
+      border-radius: 4px;
+      text-transform: capitalize;
+      color: var(--cinza-escuro);
+      text-decoration: none;
+      list-style: none;
+      cursor: pointer;
+
+      .close {
+        padding-left: 10px;
+        margin: auto 6px;
+        color: currentColor;
+        flex: 1;
+      }
+    }
+
+    .active {
+      background-color: var(--cinza-medio);
+    }
+  }
+
+  .btn {
+    background-color: transparent;
+    border: none;
+    color: var(--cinza-medio);
+    cursor: pointer;
+    font-family: var(--font);
+    font-size: 18px;
+    line-height: 27px;
+
+    &:hover {
+      color: var(--branco);
+    }
+  }
+}
