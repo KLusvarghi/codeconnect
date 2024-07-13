@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "imgPost": "/card/code_editor01.png",
+    "title": "Titulo do post",
+    "about": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint.",
+    "code": 12,
+    "share": 3,
+    "comments": 6,
+    "author": "@kaua",
+    "authorImg": "./card/icons/user.png"
+  },
+  {
+    "id": 2,
+    "imgPost": "/card/code_editor02.png",
+    "title": "Titulo do post",
+    "about": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint.",
+    "code": 13,
+    "share": 13,
+    "comments": 5,
+    "author": "@kaua",
+    "authorImg": "./card/icons/user.png"
+  },
+  {
+    "id": 3,
+    "imgPost": "/card/code_editor03.png",
+    "title": "Titulo do post",
+    "about": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint.",
+    "code": 5,
+    "share": 7,
+    "comments": 8,
+    "author": "@kaua",
+    "authorImg": "./card/icons/user.png"
+  },
+  {
+    "id": 4,
+    "imgPost": "/card/code_editor04.png",
+    "title": "Titulo do post",
+    "about": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint.",
+    "code": 3,
+    "share": 5,
+    "comments": 3,
+    "author": "@kaua",
+    "authorImg": "./card/icons/user.png"
+  },
+  {
+    "id": 5,
+    "imgPost": "/card/code_editor05.png",
+    "title": "Titulo do post",
+    "about": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint.",
+    "code": 9,
+    "share": 3,
+    "comments": 1,
+    "author": "@kaua",
+    "authorImg": "./card/icons/user.png"
+  },
+  {
+    "id": 6,
+    "imgPost": "/card/code_editor06.png",
+    "title": "Titulo do post",
+    "about": "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint.",
+    "code": 11,
+    "share": 4,
+    "comments": 6,
+    "author": "@kaua",
+    "authorImg": "./card/icons/user.png"
+  }
+]

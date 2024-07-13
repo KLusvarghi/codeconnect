@@ -1,0 +1,32 @@
+@import '../../Root.module.scss';
+
+.ordenacao {
+  margin-top: 56px;
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+  justify-content: center;
+
+  .listaOrdenacao {
+    list-style: none;
+    font-family: var(--font);
+    font-size: 22px;
+    line-height: 33px;
+    text-transform: capitalize;
+    color: var(--cinza-medio);
+    cursor: pointer;
+
+    &:hover {
+      color: var(--offwhite);
+    }
+  }
+  .ativo {
+    color: var(--verde-destaque);
+    text-decoration: underline;
+    font-weight: 600;
+
+    &:hover {
+      color: var(--verde-pastel);
+    }
+  }
+}

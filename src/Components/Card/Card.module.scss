@@ -1,0 +1,77 @@
+@import '../../Root.module.scss';
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 100px;
+
+  font-family: var(--font);
+  color: var(--cinza-claro);
+
+  .card {
+    max-width: 486px;
+
+    .cardImg {
+      width: 100%;
+      background-color: var(--cinza-medio);
+      border-radius: 8px 8px 0 0;
+
+      img {
+        margin: 24px;
+      }
+    }
+
+    .cardContent {
+      padding: 16px;
+      background-color: var(--cinza-escuro);
+      border-radius: 0 0 8px 8px;
+
+      .contentText {
+        h3 {
+          font-size: 18px;
+          font-weight: 600;
+          line-height: 27px;
+        }
+
+        p {
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 22.5px;
+        }
+      }
+
+      .contentFooter {
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 67px;
+
+
+        .list {
+          display: flex;
+          flex-direction: row;
+          gap: 23px;
+          align-items: center;
+
+          li {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+          }
+        }
+
+        .footerUser {
+          display: flex;
+          text-align: center;
+          gap: 8px;
+        }
+      }
+    }
+  }
+}
