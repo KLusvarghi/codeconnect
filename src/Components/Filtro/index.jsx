@@ -36,7 +36,9 @@ export default function Filtro() {
           ))}
         </ul>
       </div>
-      <button className={styles.btn} onClick={() => setFiltros([])}>Limpar Tudo</button>
+      <button className={styles.btn} onClick={() => setFiltros([])}>
+        Limpar Tudo
+      </button>
     </section>
   );
 }
